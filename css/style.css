@@ -1,0 +1,111 @@
+/* основний колір тексту  #757575 */
+/* вторинний колір тексту #212121  */
+/* основний колір для логотипа #000000 */
+/* акцент #2196F3 */
+/* білий #FFFFFF */
+/* колір фону сторінки #F5F5F5 */
+/* футер колір тексту rgba(255, 255, 255, 0.6) */
+/* футер та герой колір фону #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white: #ffffff;
+  --black: #000000;
+  --footer-link: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: #f5f5f5;
+  color: var(--primary-text-color);
+}
+
+/* Logo */
+
+.logo {
+  color: var(--accent-color);
+}
+
+.logo span {
+  color: var(--black);
+}
+
+.footer-logo span {
+  color: var(--white);
+}
+
+/* header */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.header-contaсts .link {
+  color: inherit;
+}
+
+.header-contaсts .link:hover,
+.header-contaсts .link:focus {
+   color: var(--accent-color); 
+}
+
+/* Hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--white);
+}
+
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+/* sections */
+
+.title {
+  color: var(--title-text-color);
+}
+
+/* footer */
+
+footer {
+  background-color: #2f303a;
+}
+
+address .link {
+  color: var(--footer-link);
+}
+
+address li:first-child .link {
+  color: var(--white);
+}
+
+/* portfolio */
+
+.portfolio-filter button {
+  color: var(--title-text-color);
+  background-color: #f5f5f5;
+  border: 0;
+}
+
+.portfolio-filter button:hover,
+.portfolio-filter button:focus {
+  color: var(--white);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  border-radius: 4px;
+}
+
+.examples .link {
+  color: inherit;
+}
