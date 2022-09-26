@@ -150,7 +150,8 @@ footer {
   background-color: var(--secondary-background-color);
 }
 
-address .link {
+address .link, 
+address .address-link {
   color: var(--footer-link);
   font-style: normal;
   font-size: 14px;
