@@ -83,6 +83,8 @@ body {
 
 .hero {
   background-color: var(--secondary-background-color);
+  text-align: center;
+  
 }
 
 .hero-title {
@@ -90,21 +92,20 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .hero-btn {
+  border: 0;
+  border-radius: 4px;
+
   background-color: var(--accent-color);
   color: var(--white);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   letter-spacing: 0.06em;
-  border: 0;
-  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -150,7 +151,7 @@ footer {
   background-color: var(--secondary-background-color);
 }
 
-address .link, 
+address .link,
 address .address-link {
   color: var(--footer-link);
   font-style: normal;
@@ -166,7 +167,6 @@ address .link:hover,
 address .link:focus {
   color: var(--accent-color);
 }
-
 
 /* portfolio */
 
